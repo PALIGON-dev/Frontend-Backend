@@ -53,7 +53,7 @@
     flex-direction: column;
 }
 .info__title{
-    font-family: "Exo", ital;
+    font-family: "Exo 2", italic;
     color: black;
 }
 .info__list {
@@ -82,7 +82,7 @@
     margin-bottom: 1rem;
 }
 .info__item-text {
-    font-family: "Exo", ital;
+    font-family: "Exo 2", italic;
     color: black;
 }
 .coffeePick{
@@ -130,7 +130,7 @@
     cursor: not-allowed;
 }
 .giftFriend__title {
-    font-family: "Exo", sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-style: italic;
     color: black;
     text-align: center;
@@ -173,7 +173,7 @@
     color: white;
     border: none;
     border-radius: 4px;
-    font-family: "Exo", sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-size: 1rem;
 }
 .bestSelling{
@@ -182,7 +182,7 @@
     flex-direction: column;
 }
 .bestSelling__title{
-    font-family: "Exo", ital;
+    font-family: "Exo 2", italic;
     color: black;
 }
 .bestSelling__list {
@@ -212,7 +212,7 @@
     margin-bottom: 1rem;
 }
 .bestSelling__item-content {
-    font-family: "Exo", ital;
+    font-family: "Exo 2", italic;
     color: black;
 }
 
