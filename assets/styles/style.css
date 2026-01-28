@@ -267,7 +267,7 @@
   height: 3px;
   background: transparent;
   border-radius: 2px;
-  transition: var(--transition);
+  transition: 0.3s ease;
 }
 .menu-toggle.active .menu-toggle__line:nth-child(1) {
   transform: rotate(45deg) translate(6px, 6px);
