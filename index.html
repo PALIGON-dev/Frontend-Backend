@@ -17,12 +17,17 @@
         <nav class="nav">
         <div class="nav__logo">
             <h1><a href="#footer">Рево-кофе</a></h1>
+            <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">
+                <span class="menu-toggle__line"></span>
+                <span class="menu-toggle__line"></span>
+                <span class="menu-toggle__line"></span>
+            </button>
         </div>
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#info">Главная</a></li>
-                <li class="nav__item"><a href="#taste">Подарки</a></li>
-                <li class="nav__item"><a href="#gifts">Кофе на любой вкус</a></li>
-                <li class="nav__item"><a href="#ourChoise">Выбор редакции</a></li>
+            <ul class="nav__list" id="mainNav">
+                <li class="nav__item"><a href="#info" class="nav__link">Главная</a></li>
+                <li class="nav__item"><a href="#taste" class="nav__link">Подарки</a></li>
+                <li class="nav__item"><a href="#gifts" class="nav__link">Кофе на любой вкус</a></li>
+                <li class="nav__item"><a href="#ourChoise" class="nav__link">Выбор редакции</a></li>
             </ul>
         </nav>
     </header>
@@ -135,8 +140,15 @@
             </div>
         </section>
     </main>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Наверх">
+        Up
+    </button>
+
     <footer id="footer">
         <p>Рево кофе лимитед</p>
     </footer>
+
+    <script src="scripts/menu.js"></script>
 </body>
 </html>
